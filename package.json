@@ -1,0 +1,33 @@
+{
+  "name": "a99-team-33",
+  "version": "0.0.1",
+  "description": "The Group 33 Final Project for COMP-426 Web Programming Class",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port 5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimG233/a99-Team-33.git"
+  },
+  "keywords": [
+    "node",
+    "a99",
+    "covid",
+    "api",
+    "server"
+  ],
+  "author": "TimG233, Lukeschmidt02, ChaynickUNC",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TimG233/a99-Team-33/issues"
+  },
+  "homepage": "https://github.com/TimG233/a99-Team-33#readme",
+  "type": "module",
+  "dependencies": {
+    "better-sqlite3": "^8.0.1",
+    "express": "^4.18.2",
+    "minimist": "^1.2.7",
+    "novelcovid": "^3.0.2"
+  }
+}
